@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.nav{
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px ;
+}
+.part{
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+}
+.part > i{
+    font-size: 25px;
+    padding: 15px;
+}
+.part > h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.part > a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    margin: 5px 20px;
+}
+.apps{
+    width: 100%;
+    margin-top: 0px;
+    padding: 20px;
+    line-height: 2;
+    position: relative;
+    height: 20%;
+}
+.apps > h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    margin: 10px 20px;
+    
+}
+.app-image{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 90%;    
+}
+.app-image > img{
+    width: 12%;
+    height: 100%;
+    border-radius: 10px;
+}
+.netflix{
+    width: 100%;
+    margin-top: 30px;
+    padding: 20px;
+    line-height: 2;
+    position: relative;
+    height: 25%;
+}
+.netflix > h1{
+    font-size: 20px;
+    font-weight: 300;
+    color: gray;
+    margin: 10px 20px;
+    
+}
+.app-images{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;    
+}
+.app-images > img{
+    width: 18%;
+    height: 100%;
+    border-radius: 10px;
+}
